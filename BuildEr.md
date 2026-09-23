@@ -8,13 +8,9 @@
 
 ---
 
-## Idea
+## 1. Idea
 
 L’idea nasce da molte conversazioni nate con il mio compagno Elia, Architetto neo laureato che ha iniziato a lavorare come come tale in uno studio di Ingegneria Edile integrata ad Oderzo. Il suo compito è quello di progettare opere urbane molto diverse in base alla committenza.
-
-## 1. Riepilogo esecutivo
-
-_In 2-3 frasi: cosa si sta costruendo e perché._
 
 ---
 
@@ -47,4 +43,3 @@ Arcai.it è una soluzione a pagamento, circa 40euro al mese, il mio obiettivo è
 | Studio tecnico / società di progettazione               | Standardizzare e velocizzare la ricerca normativa per tutti i collaboratori dello studio, riducendo il tempo (e quindi il costo) speso in attività non progettuali                               | Gestione di più commesse contemporanee in comuni diversi; necessità che junior e collaboratori trovino la normativa corretta senza dover ricorrere sistematicamente al senior                                                                                                                  |
 
 ---
-
