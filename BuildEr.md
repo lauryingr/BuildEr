@@ -31,15 +31,113 @@ Cioò che ha dato origine a BuildEr non nasce da un'analisi di mercato a tavolin
 Che il bisogno sia reale e non isolato è confermato: esiste già un'Ai arcai.it, che si propone di risolvere lo stesso problema per l'Italia, offrendo interrogazione in linguaggio naturale delle normative di migliaia di comuni. La sua esistenza è una validazione indiretta: il problema della reperibilità e dell'aggiornamento delle normative comunali è reale.
 Arcai.it è una soluzione a pagamento, circa 40euro al mese, il mio obiettivo è di realizzare un'applicazione simile, senza AI all'interno ma che restituisca la normativa corretta e aggiornata scaricabile in pdf solo con dei filtri per provincia e comune.
 
+### 2.3 Cosa è incluso e cosa non è incluso
+
+E' inclusa:
+
+- La possibilità di crare un utente e di salvare i pdf dei comuni più utilizzati.
+- La possibilità di richiedere attraverso una form, i pdf dei documenti di un comune non ancora nel DB
+- Scaricare qualsiasi pdf presente dei comuni inseriti
+- Banner di notifica all'utente quando viene aggiornata una normativa di un comune che ha salvato tra i preferiti
+- Data/versione di ultimo aggiornamento visibile su ogni documento con chiara indicazione della fonte da cui proviene per sicurezza.
+- Ricerca filtro per tipologia di documento oltre che per provincia e comune.
+- Gestione multi-utente/permessi per studio (ruoli, condivisione fascicoli tra colleghi)
+
+Non è incluso:
+
+- Interrogazione in linguaggi naturale/AI sulle normative. Le normative potranno solo essere consultate oppure scaricate.
+- integrazioni con altri software di progettazione/CAD.
+- Verifica di conformità automatica di un progetto rispetto alla normativa
+- Copertura di tutti i 7900 comuni italiani al lancio, (le integrazioni, se possibili, saranno graduali)
+
 ---
 
 - ***
 
-## 3. Utenti target e persona
+## 3. Ruoli utente
 
-| Persona                                                 | Bisogno principale                                                                                                                                                                               | Contesto d'uso                                                                                                                                                                                                                                                                                 |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Architetto, ingegnere edile/civile, urbanista, geometra | Reperire rapidamente la normativa edilizia/urbanistica ufficiale e aggiornata (Regolamento Edilizio, PRG/PGT/PAT/PI, NTA) di uno specifico comune, con la certezza che sia la versione in vigore | Fase di progettazione preliminare o di verifica di conformità di un progetto, spesso sotto scadenza verso il committente; lavoro su più comuni/province diversi nello stesso periodo, con esigenza di consultare e scaricare in PDF la documentazione per archiviarla nel fascicolo di pratica |
-| Studio tecnico / società di progettazione               | Standardizzare e velocizzare la ricerca normativa per tutti i collaboratori dello studio, riducendo il tempo (e quindi il costo) speso in attività non progettuali                               | Gestione di più commesse contemporanee in comuni diversi; necessità che junior e collaboratori trovino la normativa corretta senza dover ricorrere sistematicamente al senior                                                                                                                  |
+| Ruolo | Descrizione |
+| ----- | ----------- |
+| Admin | Gestione completa della piattaforma e degli utenti |
+| User  | Architetto, Geometra, Urbanista, Ingegnere civile |
+
+2 tipologie di utente previste: Admin e User.
+
+---
+
+## 4. Stackeholder
+
+| 👤 Persona                                                  | 🎯 Bisogno principale                                                                                                                                                                          | 📍 Contesto d'uso                                                                                                                                                                                                 |
+| ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Architetto, ingegnere edile/civile, urbanista, geometra** | Reperire rapidamente la normativa edilizia/urbanistica ufficiale e aggiornata (Regolamento Edilizio, PRG/PGT/PAT/PI, NTA) di uno specifico comune, con certezza di avere la versione in vigore | Fase di progettazione preliminare o di verifica di conformità, spesso sotto scadenza verso il committente; lavoro su più comuni/province diversi, con esigenza di consultare e scaricare in PDF la documentazione |
+| **Studio tecnico / Società di progettazione**               | Standardizzare e velocizzare la ricerca normativa per tutti i collaboratori, riducendo il tempo (e costo) speso in attività non progettuali                                                    | Gestione di più commesse contemporanee in comuni diversi; necessità che junior e collaboratori trovino la normativa corretta senza dover ricorrere sistematicamente al senior                                     |
+
+---
+
+## 5. Archetipi utente
+
+### 4.1 Elia, l'Architetto sul campo
+
+- **Ruolo:** Architetto neolaureato, dipendente di uno studio di ingegneria edile
+- **Età:** 25 anni
+- **Obiettivi:**
+  - Trovare in pochi minuti la normativa in vigore per il comune su cui sta lavorando
+  - Avere la certezza che il documento scaricato sia la versione aggiornata, senza doverla verificare a mano sul sito del comune
+  - Archiviare i PDF consultati nel fascicolo di pratica in modo ordinato
+- **Frustrazioni attuali:**
+  - Perde ore a cercare PDF sparsi tra sezioni "Urbanistica", "Edilizia Privata" e "Amministrazione Trasparente"
+  - Non ha mai la certezza di essere di fronte all'ultima versione in vigore di un regolamento
+  - Deve ripetere la stessa ricerca ogni volta che lo studio prende una commessa in un nuovo comune
+- **Comportamento d'uso:** Consulta la normativa soprattutto nella fase preliminare di progettazione e nella verifica di conformità, spesso sotto scadenza; lavora su più comuni/province in parallelo
+- **Citazione rappresentativa:** _"voglio essere sicuro di avere in mano il PDF giusto e aggiornato e di consultarlo in pochi click."_
+
+### 4.2 Studio Associato Rossi & Bianchi, lo Studio tecnico
+
+- **Ruolo:** Piccolo/medio studio di progettazione con titolari, senior e collaboratori junior
+- **Obiettivi:**
+  - Ridurre il tempo (e quindi il costo) che i collaboratori junior spendono in attività di ricerca non progettuale
+  - Rendere autonomi i junior nella ricerca normativa, senza che debbano interrompere continuamente i senior
+  - Avere uno storico condiviso della documentazione normativa già raccolta per i comuni in cui lo studio opera abitualmente
+- **Frustrazioni attuali:**
+  - Ogni collaboratore rifà da zero la stessa ricerca già fatta da un collega per lo stesso comune
+  - Difficoltà a garantire che tutti nello studio lavorino sulla stessa versione aggiornata della normativa
+- **Comportamento d'uso:** Gestisce più commesse contemporanee in comuni diversi; ha bisogno di condividere fascicoli e preferiti tra i membri del team
+- **Citazione rappresentativa:** _"Se un collega ha già trovato la normativa di un comune, voglio che tutto lo studio ci acceda senza rifare la ricerca da capo."_
+
+---
+
+## 6. Epic e User Story
+
+Il backlog è organizzato in 5 Epic. Ogni Epic ha un proprio file di dettaglio in [epics/](epics/) con l'elenco delle User Story collegate, ciascuna in un proprio file in [user-stories/](user-stories/).
+
+Le prime 4 User Story (US-1.1, US-1.2, US-1.3, US-2.1) sono già compilate con criteri di accettazione; le restanti sono presenti solo come struttura (titolo + template vuoto), da completare in seguito.
+
+| Epic | Titolo | File |
+| ---- | ------ | ---- |
+| EPIC 1 | Profilo Utente | [epic-1-profilo-utente.md](epics/epic-1-profilo-utente.md) |
+| EPIC 2 | Gestione Multi Utente | [epic-2-gestione-multi-utente.md](epics/epic-2-gestione-multi-utente.md) |
+| EPIC 3 | Azioni sui Documenti | [epic-3-azioni-documenti.md](epics/epic-3-azioni-documenti.md) |
+| EPIC 4 | Banner e Notifiche | [epic-4-banner-notifiche.md](epics/epic-4-banner-notifiche.md) |
+| EPIC 5 | Assistenza | [epic-5-assistenza.md](epics/epic-5-assistenza.md) |
+
+| ID | Titolo | Epic | File |
+| -- | ------ | ---- | ---- |
+| US-1.1 | Creazione profilo utente personale | EPIC 1 | [us-1.1-creazione-profilo.md](user-stories/us-1.1-creazione-profilo.md) |
+| US-1.2 | Modifica profilo utente personale | EPIC 1 | [us-1.2-modifica-profilo.md](user-stories/us-1.2-modifica-profilo.md) |
+| US-1.3 | Eliminazione profilo utente personale | EPIC 1 | [us-1.3-eliminazione-profilo.md](user-stories/us-1.3-eliminazione-profilo.md) |
+| US-2.1 | Cartelle personalizzabili | EPIC 2 | [us-2.1-cartelle-personalizzabili.md](user-stories/us-2.1-cartelle-personalizzabili.md) |
+| US-2.2 | Condivisione fascicoli tra colleghi | EPIC 2 | [us-2.2-condivisione-fascicoli.md](user-stories/us-2.2-condivisione-fascicoli.md) |
+| US-2.3 | Visualizzazione primaria dei documenti in relazione al tipo di utente | EPIC 2 | [us-2.3-visualizzazione-primaria-documenti.md](user-stories/us-2.3-visualizzazione-primaria-documenti.md) |
+| US-3.1 | Ricerca con filtri dei documenti | EPIC 3 | [us-3.1-ricerca-filtri-documenti.md](user-stories/us-3.1-ricerca-filtri-documenti.md) |
+| US-3.2 | Azioni di preferenza sui documenti e provincia | EPIC 3 | [us-3.2-preferenza-documenti-provincia.md](user-stories/us-3.2-preferenza-documenti-provincia.md) |
+| US-3.3 | Creazione di cartelle personalizzate e condivisibili | EPIC 3 | [us-3.3-creazione-cartelle-personalizzate.md](user-stories/us-3.3-creazione-cartelle-personalizzate.md) |
+| US-3.4 | Modifica di cartelle personalizzate e condivisibili | EPIC 3 | [us-3.4-modifica-cartelle-personalizzate.md](user-stories/us-3.4-modifica-cartelle-personalizzate.md) |
+| US-3.5 | Eliminazione di cartelle personalizzate e condivisibili | EPIC 3 | [us-3.5-eliminazione-cartelle-personalizzate.md](user-stories/us-3.5-eliminazione-cartelle-personalizzate.md) |
+| US-4.1 | Notifiche di aggiunta documento richiesto | EPIC 4 | [us-4.1-notifica-documento-richiesto.md](user-stories/us-4.1-notifica-documento-richiesto.md) |
+| US-4.2 | Notifiche di aggiornamento documento preferito | EPIC 4 | [us-4.2-notifica-aggiornamento-preferito.md](user-stories/us-4.2-notifica-aggiornamento-preferito.md) |
+| US-4.3 | Notifiche di aggiunta documento provincia | EPIC 4 | [us-4.3-notifica-documento-provincia.md](user-stories/us-4.3-notifica-documento-provincia.md) |
+| US-4.4 | Notifiche di aggiornamento documento provincia | EPIC 4 | [us-4.4-notifica-aggiornamento-provincia.md](user-stories/us-4.4-notifica-aggiornamento-provincia.md) |
+| US-5.1 | Invio modulo di assistenza tecnica (bug, ecc.) | EPIC 5 | [us-5.1-assistenza-tecnica.md](user-stories/us-5.1-assistenza-tecnica.md) |
+| US-5.2 | Invio modulo di richiesta inserimento nuovo comune | EPIC 5 | [us-5.2-richiesta-nuovo-comune.md](user-stories/us-5.2-richiesta-nuovo-comune.md) |
 
 ---
