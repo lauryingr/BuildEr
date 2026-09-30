@@ -1,8 +1,8 @@
 # US-1.3 — Eliminazione profilo utente personale
 
-**Come** utente registrato (Admin o User)
-**Voglio** poter eliminare il mio profilo personale
-**Così da** rimuovere definitivamente il mio account e i miei dati dalla piattaforma quando non ne ho più bisogno
+**Attore:** utente registrato (Admin o User)
+**Necessità:** eliminazione del profilo personale
+**Obiettivo:** rimozione definitiva dell'account e dei dati personali dalla piattaforma
 
 ---
 
@@ -12,8 +12,8 @@ Riferimento: [BuildEr.md](../BuildEr.md) — archetipo 4.1 (Elia). Epic di rifer
 
 ## Criteri di accettazione
 
-- **Dato** che sono autenticato, **quando** richiedo l'eliminazione del profilo dalla sezione "Profilo", **allora** mi viene chiesta una conferma esplicita prima di procedere.
-- **Dato** che confermo l'eliminazione, **quando** l'operazione va a buon fine, **allora** il mio account e i miei dati personali vengono rimossi e non posso più accedere con quelle credenziali.
+- **Dato** un utente autenticato, **quando** richiede l'eliminazione del profilo dalla sezione "Profilo", **allora** il sistema chiede una conferma esplicita prima di procedere.
+- **Dato** una conferma di eliminazione, **quando** l'operazione va a buon fine, **allora** account e dati personali vengono rimossi e le credenziali non consentono più l'accesso.
 - **Dato** un utente che appartiene a uno studio con fascicoli condivisi, **quando** elimina il proprio profilo, **allora** i fascicoli condivisi restano accessibili agli altri membri dello studio (solo l'account personale viene rimosso).
 
 ## Fuori scope

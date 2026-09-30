@@ -10,3 +10,5 @@ Notifiche in-app che avvisano l'utente di nuovi documenti o aggiornamenti relati
 | US-4.2 | Notifiche di aggiornamento documento preferito   | [us-4.2-notifica-aggiornamento-preferito.md](../user-stories/us-4.2-notifica-aggiornamento-preferito.md) |
 | US-4.3 | Notifiche di aggiunta documento provincia        | [us-4.3-notifica-documento-provincia.md](../user-stories/us-4.3-notifica-documento-provincia.md) |
 | US-4.4 | Notifiche di aggiornamento documento provincia   | [us-4.4-notifica-aggiornamento-provincia.md](../user-stories/us-4.4-notifica-aggiornamento-provincia.md) |
+| US-4.5 | Centro notifiche e storico | [us-4.5-centro-notifiche.md](../user-stories/us-4.5-centro-notifiche.md) |
+| US-4.6 | Stato letto/non letto delle notifiche | [us-4.6-stato-letto-notifiche.md](../user-stories/us-4.6-stato-letto-notifiche.md) |

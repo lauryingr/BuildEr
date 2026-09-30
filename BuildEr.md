@@ -108,9 +108,9 @@ Non è incluso:
 
 ## 6. Epic e User Story
 
-Il backlog è organizzato in 5 Epic. Ogni Epic ha un proprio file di dettaglio in [epics/](epics/) con l'elenco delle User Story collegate, ciascuna in un proprio file in [user-stories/](user-stories/).
+Il backlog è organizzato in 8 Epic. Ogni Epic ha un proprio file di dettaglio in [epics/](epics/) con l'elenco delle User Story collegate, ciascuna in un proprio file in [user-stories/](user-stories/).
 
-Le prime 4 User Story (US-1.1, US-1.2, US-1.3, US-2.1) sono già compilate con criteri di accettazione; le restanti sono presenti solo come struttura (titolo + template vuoto), da completare in seguito.
+Tutte le User Story sono compilate con attore, necessità, obiettivo e criteri di accettazione; sono bozze da revisionare (le assunzioni aperte sono indicate nella sezione Note di ciascuna).
 
 | Epic | Titolo | File |
 | ---- | ------ | ---- |
@@ -119,6 +119,9 @@ Le prime 4 User Story (US-1.1, US-1.2, US-1.3, US-2.1) sono già compilate con c
 | EPIC 3 | Azioni sui Documenti | [epic-3-azioni-documenti.md](epics/epic-3-azioni-documenti.md) |
 | EPIC 4 | Banner e Notifiche | [epic-4-banner-notifiche.md](epics/epic-4-banner-notifiche.md) |
 | EPIC 5 | Assistenza | [epic-5-assistenza.md](epics/epic-5-assistenza.md) |
+| EPIC 6 | Consultazione del Documento | [epic-6-consultazione-documento.md](epics/epic-6-consultazione-documento.md) |
+| EPIC 7 | Amministrazione dei Contenuti (Admin) | [epic-7-amministrazione-contenuti.md](epics/epic-7-amministrazione-contenuti.md) |
+| EPIC 8 | Monitoraggio Automatico delle Fonti | [epic-8-monitoraggio-automatico.md](epics/epic-8-monitoraggio-automatico.md) |
 
 | ID | Titolo | Epic | File |
 | -- | ------ | ---- | ---- |
@@ -128,16 +131,42 @@ Le prime 4 User Story (US-1.1, US-1.2, US-1.3, US-2.1) sono già compilate con c
 | US-2.1 | Cartelle personalizzabili | EPIC 2 | [us-2.1-cartelle-personalizzabili.md](user-stories/us-2.1-cartelle-personalizzabili.md) |
 | US-2.2 | Condivisione fascicoli tra colleghi | EPIC 2 | [us-2.2-condivisione-fascicoli.md](user-stories/us-2.2-condivisione-fascicoli.md) |
 | US-2.3 | Visualizzazione primaria dei documenti in relazione al tipo di utente | EPIC 2 | [us-2.3-visualizzazione-primaria-documenti.md](user-stories/us-2.3-visualizzazione-primaria-documenti.md) |
+| US-2.4 | Creazione studio | EPIC 2 | [us-2.4-creazione-studio.md](user-stories/us-2.4-creazione-studio.md) |
+| US-2.5 | Invito di membri nello studio | EPIC 2 | [us-2.5-invito-membri-studio.md](user-stories/us-2.5-invito-membri-studio.md) |
+| US-2.6 | Rimozione di membri dallo studio | EPIC 2 | [us-2.6-rimozione-membri-studio.md](user-stories/us-2.6-rimozione-membri-studio.md) |
+| US-2.7 | Gestione dei permessi dei membri dello studio | EPIC 2 | [us-2.7-permessi-membri-studio.md](user-stories/us-2.7-permessi-membri-studio.md) |
 | US-3.1 | Ricerca con filtri dei documenti | EPIC 3 | [us-3.1-ricerca-filtri-documenti.md](user-stories/us-3.1-ricerca-filtri-documenti.md) |
 | US-3.2 | Azioni di preferenza sui documenti e provincia | EPIC 3 | [us-3.2-preferenza-documenti-provincia.md](user-stories/us-3.2-preferenza-documenti-provincia.md) |
 | US-3.3 | Creazione di cartelle personalizzate e condivisibili | EPIC 3 | [us-3.3-creazione-cartelle-personalizzate.md](user-stories/us-3.3-creazione-cartelle-personalizzate.md) |
 | US-3.4 | Modifica di cartelle personalizzate e condivisibili | EPIC 3 | [us-3.4-modifica-cartelle-personalizzate.md](user-stories/us-3.4-modifica-cartelle-personalizzate.md) |
 | US-3.5 | Eliminazione di cartelle personalizzate e condivisibili | EPIC 3 | [us-3.5-eliminazione-cartelle-personalizzate.md](user-stories/us-3.5-eliminazione-cartelle-personalizzate.md) |
+| US-3.6 | Elenco e visualizzazione dei preferiti | EPIC 3 | [us-3.6-elenco-preferiti.md](user-stories/us-3.6-elenco-preferiti.md) |
 | US-4.1 | Notifiche di aggiunta documento richiesto | EPIC 4 | [us-4.1-notifica-documento-richiesto.md](user-stories/us-4.1-notifica-documento-richiesto.md) |
 | US-4.2 | Notifiche di aggiornamento documento preferito | EPIC 4 | [us-4.2-notifica-aggiornamento-preferito.md](user-stories/us-4.2-notifica-aggiornamento-preferito.md) |
 | US-4.3 | Notifiche di aggiunta documento provincia | EPIC 4 | [us-4.3-notifica-documento-provincia.md](user-stories/us-4.3-notifica-documento-provincia.md) |
 | US-4.4 | Notifiche di aggiornamento documento provincia | EPIC 4 | [us-4.4-notifica-aggiornamento-provincia.md](user-stories/us-4.4-notifica-aggiornamento-provincia.md) |
+| US-4.5 | Centro notifiche e storico | EPIC 4 | [us-4.5-centro-notifiche.md](user-stories/us-4.5-centro-notifiche.md) |
+| US-4.6 | Stato letto/non letto delle notifiche | EPIC 4 | [us-4.6-stato-letto-notifiche.md](user-stories/us-4.6-stato-letto-notifiche.md) |
 | US-5.1 | Invio modulo di assistenza tecnica (bug, ecc.) | EPIC 5 | [us-5.1-assistenza-tecnica.md](user-stories/us-5.1-assistenza-tecnica.md) |
 | US-5.2 | Invio modulo di richiesta inserimento nuovo comune | EPIC 5 | [us-5.2-richiesta-nuovo-comune.md](user-stories/us-5.2-richiesta-nuovo-comune.md) |
+| US-6.1 | Scheda di dettaglio del documento | EPIC 6 | [us-6.1-scheda-documento.md](user-stories/us-6.1-scheda-documento.md) |
+| US-6.2 | Data e versione di ultimo aggiornamento | EPIC 6 | [us-6.2-data-versione-documento.md](user-stories/us-6.2-data-versione-documento.md) |
+| US-6.3 | Fonte ufficiale del documento | EPIC 6 | [us-6.3-fonte-ufficiale-documento.md](user-stories/us-6.3-fonte-ufficiale-documento.md) |
+| US-6.4 | Download del documento in PDF | EPIC 6 | [us-6.4-download-pdf.md](user-stories/us-6.4-download-pdf.md) |
+| US-6.5 | Consultazione online del documento | EPIC 6 | [us-6.5-consultazione-online-documento.md](user-stories/us-6.5-consultazione-online-documento.md) |
+| US-7.1 | Inserimento di un documento | EPIC 7 | [us-7.1-inserimento-documento.md](user-stories/us-7.1-inserimento-documento.md) |
+| US-7.2 | Modifica di un documento | EPIC 7 | [us-7.2-modifica-documento.md](user-stories/us-7.2-modifica-documento.md) |
+| US-7.3 | Eliminazione o archiviazione di un documento | EPIC 7 | [us-7.3-eliminazione-documento.md](user-stories/us-7.3-eliminazione-documento.md) |
+| US-7.4 | Gestione di regioni, province e comuni | EPIC 7 | [us-7.4-gestione-anagrafica-territoriale.md](user-stories/us-7.4-gestione-anagrafica-territoriale.md) |
+| US-7.5 | Gestione delle richieste di nuovo comune | EPIC 7 | [us-7.5-gestione-richieste-nuovo-comune.md](user-stories/us-7.5-gestione-richieste-nuovo-comune.md) |
+| US-7.6 | Gestione delle segnalazioni di assistenza | EPIC 7 | [us-7.6-gestione-segnalazioni-assistenza.md](user-stories/us-7.6-gestione-segnalazioni-assistenza.md) |
+| US-7.7 | Gestione degli utenti | EPIC 7 | [us-7.7-gestione-utenti.md](user-stories/us-7.7-gestione-utenti.md) |
+| US-8.1 | Pagina di monitoraggio riservata al super admin | EPIC 8 | [us-8.1-pagina-monitoraggio.md](user-stories/us-8.1-pagina-monitoraggio.md) |
+| US-8.2 | Configurazione delle fonti da monitorare | EPIC 8 | [us-8.2-configurazione-fonti-monitorate.md](user-stories/us-8.2-configurazione-fonti-monitorate.md) |
+| US-8.3 | Rilevamento automatico delle modifiche | EPIC 8 | [us-8.3-rilevamento-modifiche.md](user-stories/us-8.3-rilevamento-modifiche.md) |
+| US-8.4 | Revisione e approvazione degli aggiornamenti rilevati | EPIC 8 | [us-8.4-revisione-aggiornamenti-rilevati.md](user-stories/us-8.4-revisione-aggiornamenti-rilevati.md) |
+| US-8.5 | Log e storico dei controlli | EPIC 8 | [us-8.5-log-monitoraggio.md](user-stories/us-8.5-log-monitoraggio.md) |
+| US-8.6 | Avvio manuale del controllo di una fonte | EPIC 8 | [us-8.6-controllo-manuale.md](user-stories/us-8.6-controllo-manuale.md) |
 
 ---
+

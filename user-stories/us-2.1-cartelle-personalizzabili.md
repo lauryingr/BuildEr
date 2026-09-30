@@ -1,8 +1,8 @@
 # US-2.1 — Cartelle personalizzabili
 
-**Come** utente registrato (Elia, archetipo 4.1)
-**Voglio** creare cartelle personalizzabili in cui organizzare i documenti normativi che consulto
-**Così da** tenere ordinati i documenti per commessa/comune senza doverli ricercare ogni volta da capo
+**Attore:** utente registrato (Elia, archetipo 4.1)
+**Necessità:** creazione di cartelle personalizzabili per organizzare i documenti normativi consultati
+**Obiettivo:** documenti ordinati per commessa/comune, senza ripetere la ricerca ogni volta
 
 ---
 
@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" e arc
 
 ## Criteri di accettazione
 
-- **Dato** che sono autenticato, **quando** creo una nuova cartella personale, **allora** posso assegnarle un nome a mia scelta.
-- **Dato** una cartella creata, **quando** consulto un documento, **allora** posso aggiungerlo a una o più cartelle personalizzate.
-- **Dato** una cartella con documenti, **quando** vi accedo, **allora** vedo l'elenco dei documenti che contiene, con relativa data/versione di aggiornamento.
-- **Dato** più cartelle create, **quando** accedo alla mia area personale, **allora** le vedo elencate e posso navigarle liberamente.
+- **Dato** un utente autenticato, **quando** crea una nuova cartella personale, **allora** può assegnarle un nome a scelta.
+- **Dato** una cartella creata, **quando** si consulta un documento, **allora** è possibile aggiungerlo a una o più cartelle personalizzate.
+- **Dato** una cartella con documenti, **quando** vi si accede, **allora** il sistema mostra l'elenco dei documenti contenuti, con relativa data/versione di aggiornamento.
+- **Dato** più cartelle create, **quando** si accede all'area personale, **allora** le cartelle risultano elencate e navigabili.
 
 ## Fuori scope
 
