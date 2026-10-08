@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 3 "Ruoli utente" (Admin: ge
 
 ## Criteri di accettazione
 
-- **Dato** un documento esistente, **quando** l'Admin ne richiede l'eliminazione, **allora** il sistema chiede una conferma esplicita.
-- **Dato** una conferma di eliminazione, **quando** l'operazione va a buon fine, **allora** il documento non è più disponibile nella ricerca.
-- **Dato** un documento presente nelle cartelle o nei preferiti di utenti, **quando** viene eliminato, **allora** il sistema lo segnala come non più disponibile negli elenchi degli utenti.
-- **Dato** un documento sostituito da una nuova versione, **quando** viene archiviato, **allora** il sistema lo rimuove dalla ricerca mantenendone traccia interna.
+- L'Admin può richiedere l'eliminazione di un documento esistente; il sistema chiede una conferma esplicita.
+- Se l'Admin conferma e l'operazione va a buon fine, il documento non è più disponibile nella ricerca.
+- Se il documento eliminato è presente nelle cartelle o nei preferiti di utenti, il sistema lo segnala come non più disponibile negli elenchi degli utenti.
+- Quando un documento sostituito da una nuova versione viene archiviato, il sistema lo rimuove dalla ricerca mantenendone traccia interna.
 
 ## Fuori scope
 

@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 3 "Ruoli utente". Epic di r
 
 ## Criteri di accettazione
 
-- **Dato** un utente con ruolo User, **quando** effettua il login, **allora** il sistema mostra come vista primaria ricerca documenti, cartelle personali, preferiti e notifiche.
-- **Dato** un utente con ruolo Admin, **quando** effettua il login, **allora** il sistema mostra come vista primaria la gestione di utenti, documenti e richieste ricevute (nuovi comuni, assistenza).
-- **Dato** un utente con ruolo User, **quando** tenta di accedere a una funzione riservata all'Admin, **allora** il sistema nega l'accesso.
+- Quando un utente con ruolo User effettua il login, il sistema mostra come vista primaria ricerca documenti, cartelle personali, preferiti e notifiche.
+- Quando un utente con ruolo Admin effettua il login, il sistema mostra come vista primaria la gestione di utenti, documenti e richieste ricevute (nuovi comuni, assistenza).
+- Se un utente con ruolo User tenta di accedere a una funzione riservata all'Admin, il sistema nega l'accesso.
 
 ## Fuori scope
 

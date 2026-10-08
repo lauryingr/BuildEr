@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.1 (aggiornamento tramite 
 
 ## Criteri di accettazione
 
-- **Dato** la pagina di monitoraggio, **quando** l'Admin aggiunge una fonte indicando comune, tipologia di documento e URL, **allora** il sistema salva la fonte e la include nei controlli successivi.
-- **Dato** una fonte esistente, **quando** l'Admin la modifica, la disattiva o la elimina, **allora** il sistema applica la modifica dal controllo successivo.
-- **Dato** un URL non valido o duplicato, **quando** l'Admin tenta il salvataggio, **allora** il sistema mostra un messaggio di errore.
-- **Dato** una fonte configurata, **quando** l'Admin imposta la frequenza di controllo, **allora** il sistema la utilizza per pianificare i controlli.
+- Dalla pagina di monitoraggio l'Admin può aggiungere una fonte indicando comune, tipologia di documento e URL; il sistema salva la fonte e la include nei controlli successivi.
+- L'Admin può modificare, disattivare o eliminare una fonte esistente; il sistema applica la modifica dal controllo successivo.
+- Se l'URL non è valido o è duplicato, il sistema mostra un messaggio di errore al tentativo di salvataggio.
+- L'Admin può impostare la frequenza di controllo di una fonte; il sistema la utilizza per pianificare i controlli.
 
 ## Fuori scope
 

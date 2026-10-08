@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — archetipo 4.1 (Elia). Epic di rifer
 
 ## Criteri di accettazione
 
-- **Dato** un utente autenticato, **quando** accede alla sezione "Profilo", **allora** il sistema mostra i dati attuali e ne consente la modifica.
-- **Dato** la modifica di un campo del profilo (es. nome, professione), **quando** si salva, **allora** i nuovi dati vengono aggiornati e resi subito visibili.
-- **Dato** una richiesta di cambio password, **quando** vengono inserite la password attuale e la nuova, **allora** la password viene aggiornata solo se quella attuale è corretta.
-- **Dato** una modifica dell'email con un indirizzo già in uso da un altro profilo, **quando** si salva, **allora** il sistema mostra un messaggio di errore e non applica la modifica.
+- Un utente autenticato può accedere alla sezione "Profilo", dove il sistema mostra i dati attuali e ne consente la modifica.
+- Quando l'utente modifica un campo del profilo (es. nome, professione) e salva, il sistema aggiorna i dati e li rende subito visibili.
+- Per cambiare la password, l'utente inserisce la password attuale e la nuova; il sistema aggiorna la password solo se quella attuale è corretta.
+- Se l'utente modifica l'email con un indirizzo già in uso da un altro profilo, il sistema mostra un messaggio di errore e non applica la modifica.
 
 ## Fuori scope
 

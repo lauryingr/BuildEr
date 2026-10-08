@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.1 (aggiornamento tramite 
 
 ## Criteri di accettazione
 
-- **Dato** una fonte attiva, **quando** scatta il controllo pianificato, **allora** il sistema verifica se il documento è cambiato rispetto all'ultima versione registrata.
-- **Dato** una modifica rilevata, **quando** il controllo termina, **allora** il sistema registra una proposta di aggiornamento in stato "da revisionare" con il nuovo file.
-- **Dato** nessuna modifica rilevata, **quando** il controllo termina, **allora** il sistema aggiorna solo la data di ultimo controllo.
-- **Dato** una fonte non raggiungibile o cambiata di struttura, **quando** il controllo fallisce, **allora** il sistema registra l'errore e lo segnala nella pagina di monitoraggio.
+- Quando scatta il controllo pianificato di una fonte attiva, il sistema verifica se il documento è cambiato rispetto all'ultima versione registrata.
+- Se rileva una modifica, il sistema registra una proposta di aggiornamento in stato "da revisionare" con il nuovo file.
+- Se non rileva modifiche, il sistema aggiorna solo la data di ultimo controllo.
+- Se la fonte non è raggiungibile o ha cambiato struttura, il sistema registra l'errore e lo segnala nella pagina di monitoraggio.
 
 ## Fuori scope
 

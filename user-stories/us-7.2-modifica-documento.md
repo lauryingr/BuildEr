@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 3 "Ruoli utente" (Admin: ge
 
 ## Criteri di accettazione
 
-- **Dato** un documento esistente, **quando** l'Admin ne modifica i metadati (es. tipologia, fonte) e salva, **allora** il sistema aggiorna i dati.
-- **Dato** un documento esistente, **quando** l'Admin carica un nuovo file come nuova versione, **allora** il sistema aggiorna data/versione e mantiene i riferimenti nelle cartelle e nei preferiti degli utenti.
-- **Dato** una nuova versione pubblicata, **quando** viene salvata, **allora** il sistema genera le notifiche di aggiornamento (vedi Epic 4).
+- L'Admin può modificare i metadati di un documento esistente (es. tipologia, fonte); quando salva, il sistema aggiorna i dati.
+- L'Admin può caricare un nuovo file come nuova versione di un documento; il sistema aggiorna data/versione e mantiene i riferimenti nelle cartelle e nei preferiti degli utenti.
+- Quando una nuova versione viene salvata, il sistema genera le notifiche di aggiornamento (vedi Epic 4).
 
 ## Fuori scope
 

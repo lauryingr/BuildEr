@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" (rich
 
 ## Criteri di accettazione
 
-- **Dato** un comune non presente nell'archivio, **quando** l'utente compila il modulo indicando regione, provincia e comune, **allora** il sistema invia la richiesta e mostra una conferma di ricezione.
-- **Dato** un comune già presente, **quando** l'utente tenta di inviare la richiesta, **allora** il sistema segnala che i documenti sono già disponibili e propone il link.
-- **Dato** una richiesta inviata, **quando** viene ricevuta, **allora** il sistema la rende consultabile all'Admin.
-- **Dato** una richiesta evasa, **quando** i documenti vengono inseriti, **allora** il sistema notifica l'utente richiedente (vedi US-4.1).
+- Se un comune non è presente nell'archivio, l'utente può compilare il modulo indicando regione, provincia e comune; il sistema invia la richiesta e mostra una conferma di ricezione.
+- Se il comune è già presente, il sistema segnala che i documenti sono già disponibili e propone il link.
+- Quando la richiesta viene ricevuta, il sistema la rende consultabile all'Admin.
+- Quando la richiesta viene evasa e i documenti vengono inseriti, il sistema notifica l'utente richiedente (vedi US-4.1).
 
 ## Fuori scope
 

@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3. Epic di riferimento: [
 
 ## Criteri di accettazione
 
-- **Dato** una provincia di interesse impostata, **quando** viene aggiunto un nuovo documento (o un nuovo comune) della provincia, **allora** il sistema mostra un banner di notifica con comune e tipologia di documento.
-- **Dato** una notifica ricevuta, **quando** l'utente la apre, **allora** il sistema porta al documento aggiunto.
-- **Dato** una provincia non impostata come di interesse, **quando** viene aggiunto un documento, **allora** il sistema non invia alcuna notifica.
+- Quando viene aggiunto un nuovo documento (o un nuovo comune) di una provincia di interesse, il sistema mostra un banner di notifica con comune e tipologia di documento.
+- Quando l'utente apre la notifica, il sistema lo porta al documento aggiunto.
+- Se la provincia non è impostata come di interesse, il sistema non invia alcuna notifica all'aggiunta di un documento.
 
 ## Fuori scope
 

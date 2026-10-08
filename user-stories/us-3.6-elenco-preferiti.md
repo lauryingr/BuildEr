@@ -12,11 +12,11 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (salvataggio dei comuni
 
 ## Criteri di accettazione
 
-- **Dato** un utente con preferiti salvati, **quando** accede alla sezione "Preferiti", **allora** il sistema mostra l'elenco con nome del documento, comune, data/versione di aggiornamento.
-- **Dato** un elenco di preferiti, **quando** l'utente li raggruppa o filtra per comune, provincia o tipologia, **allora** il sistema mostra solo gli elementi corrispondenti.
-- **Dato** un elemento dell'elenco, **quando** l'utente lo seleziona, **allora** il sistema apre la scheda del documento (vedi [US-6.1](us-6.1-scheda-documento.md)).
-- **Dato** un documento preferito aggiornato di recente, **quando** l'elenco viene visualizzato, **allora** il sistema lo evidenzia come aggiornato.
-- **Dato** nessun preferito salvato, **quando** l'utente accede alla sezione, **allora** il sistema mostra un messaggio informativo.
+- Un utente con preferiti salvati può accedere alla sezione "Preferiti", dove il sistema mostra l'elenco con nome del documento, comune, data/versione di aggiornamento.
+- L'utente può raggruppare o filtrare i preferiti per comune, provincia o tipologia; il sistema mostra solo gli elementi corrispondenti.
+- Quando l'utente seleziona un elemento dell'elenco, il sistema apre la scheda del documento (vedi [US-6.1](us-6.1-scheda-documento.md)).
+- Se un documento preferito è stato aggiornato di recente, il sistema lo evidenzia come aggiornato nell'elenco.
+- Se non ci sono preferiti salvati, il sistema mostra un messaggio informativo.
 
 ## Fuori scope
 

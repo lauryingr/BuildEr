@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 3 "Ruoli utente" (Admin: ge
 
 ## Criteri di accettazione
 
-- **Dato** l'anagrafica territoriale, **quando** l'Admin la consulta, **allora** il sistema mostra regioni, province e comuni con il numero di documenti per comune.
-- **Dato** un comune non ancora presente, **quando** l'Admin lo aggiunge indicando provincia e regione, **allora** il sistema lo rende selezionabile nei filtri e nell'inserimento documenti.
-- **Dato** un comune senza documenti, **quando** l'Admin lo contrassegna come "non ancora coperto", **allora** il sistema lo mostra come tale agli utenti.
-- **Dato** un comune con documenti, **quando** l'Admin tenta di eliminarlo, **allora** il sistema lo impedisce.
+- L'Admin può consultare l'anagrafica territoriale; il sistema mostra regioni, province e comuni con il numero di documenti per comune.
+- L'Admin può aggiungere un comune non ancora presente indicando provincia e regione; il sistema lo rende selezionabile nei filtri e nell'inserimento documenti.
+- L'Admin può contrassegnare un comune senza documenti come "non ancora coperto"; il sistema lo mostra come tale agli utenti.
+- Se l'Admin tenta di eliminare un comune con documenti, il sistema lo impedisce.
 
 ## Fuori scope
 

@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (ruoli/permessi per stu
 
 ## Criteri di accettazione
 
-- **Dato** un membro dello studio, **quando** il responsabile gli assegna il permesso "sola consultazione", **allora** il membro può visualizzare e scaricare i documenti ma non modificare le cartelle condivise.
-- **Dato** un membro dello studio, **quando** il responsabile gli assegna il permesso "modifica", **allora** il membro può aggiungere e rimuovere documenti nelle cartelle condivise.
-- **Dato** una modifica di permessi salvata, **quando** il membro accede alla cartella, **allora** il sistema applica subito i nuovi permessi.
-- **Dato** un membro senza permesso di modifica, **quando** tenta di modificare una cartella condivisa, **allora** il sistema nega l'operazione.
+- Il responsabile può assegnare a un membro il permesso "sola consultazione": il membro può visualizzare e scaricare i documenti ma non modificare le cartelle condivise.
+- Il responsabile può assegnare a un membro il permesso "modifica": il membro può aggiungere e rimuovere documenti nelle cartelle condivise.
+- Quando una modifica di permessi viene salvata, il sistema applica subito i nuovi permessi al membro.
+- Se un membro senza permesso di modifica tenta di modificare una cartella condivisa, il sistema nega l'operazione.
 
 ## Fuori scope
 

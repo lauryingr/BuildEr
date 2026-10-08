@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (data/versione e fonte 
 
 ## Criteri di accettazione
 
-- **Dato** un documento, **quando** viene visualizzato (scheda o elenco), **allora** il sistema mostra sempre la data/versione di ultimo aggiornamento.
-- **Dato** un documento con una nuova versione pubblicata, **quando** l'utente lo apre, **allora** il sistema mostra la versione più recente in vigore.
-- **Dato** un documento senza data di aggiornamento nota, **quando** viene visualizzato, **allora** il sistema indica esplicitamente "data non disponibile" invece di lasciare il campo vuoto.
-- **Dato** un documento aggiornato di recente, **quando** viene visualizzato, **allora** il sistema mostra la data di ultimo controllo sulla fonte.
+- Il sistema mostra sempre la data/versione di ultimo aggiornamento di un documento, sia nella scheda sia negli elenchi.
+- Se è stata pubblicata una nuova versione, quando l'utente apre il documento il sistema mostra la versione più recente in vigore.
+- Se la data di aggiornamento non è nota, il sistema indica esplicitamente "data non disponibile" invece di lasciare il campo vuoto.
+- Per un documento aggiornato di recente, il sistema mostra anche la data di ultimo controllo sulla fonte.
 
 ## Fuori scope
 

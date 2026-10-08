@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" (salv
 
 ## Criteri di accettazione
 
-- **Dato** un documento consultato, **quando** l'utente lo aggiunge ai preferiti, **allora** il sistema lo salva nell'elenco dei preferiti.
-- **Dato** un documento tra i preferiti, **quando** l'utente lo rimuove dai preferiti, **allora** il sistema lo elimina dall'elenco senza cancellare il documento dalla piattaforma.
-- **Dato** il profilo utente, **quando** l'utente imposta una o più province di interesse, **allora** il sistema le salva come preferenza.
-- **Dato** una provincia di interesse impostata, **quando** l'utente la rimuove, **allora** il sistema non la considera più per le notifiche.
+- Un utente può aggiungere ai preferiti un documento consultato; il sistema lo salva nell'elenco dei preferiti.
+- L'utente può rimuovere un documento dai preferiti; il sistema lo elimina dall'elenco senza cancellare il documento dalla piattaforma.
+- Dal proprio profilo l'utente può impostare una o più province di interesse; il sistema le salva come preferenza.
+- Quando l'utente rimuove una provincia di interesse, il sistema non la considera più per le notifiche.
 
 ## Fuori scope
 

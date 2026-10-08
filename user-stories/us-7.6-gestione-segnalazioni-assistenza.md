@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 3 "Ruoli utente" (Admin: ge
 
 ## Criteri di accettazione
 
-- **Dato** le segnalazioni ricevute, **quando** l'Admin accede alla sezione dedicata, **allora** il sistema le mostra con oggetto, utente, data e stato.
-- **Dato** una segnalazione, **quando** l'Admin ne cambia lo stato (aperta, in lavorazione, chiusa), **allora** il sistema salva il nuovo stato.
-- **Dato** una segnalazione aperta, **quando** l'Admin la apre, **allora** il sistema mostra la descrizione completa e i dati di contatto dell'utente.
+- Nella sezione dedicata l'Admin vede le segnalazioni ricevute con oggetto, utente, data e stato.
+- L'Admin può cambiare lo stato di una segnalazione (aperta, in lavorazione, chiusa); il sistema salva il nuovo stato.
+- Quando l'Admin apre una segnalazione, il sistema mostra la descrizione completa e i dati di contatto dell'utente.
 
 ## Fuori scope
 

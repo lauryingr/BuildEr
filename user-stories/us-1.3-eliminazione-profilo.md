@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — archetipo 4.1 (Elia). Epic di rifer
 
 ## Criteri di accettazione
 
-- **Dato** un utente autenticato, **quando** richiede l'eliminazione del profilo dalla sezione "Profilo", **allora** il sistema chiede una conferma esplicita prima di procedere.
-- **Dato** una conferma di eliminazione, **quando** l'operazione va a buon fine, **allora** account e dati personali vengono rimossi e le credenziali non consentono più l'accesso.
-- **Dato** un utente che appartiene a uno studio con fascicoli condivisi, **quando** elimina il proprio profilo, **allora** i fascicoli condivisi restano accessibili agli altri membri dello studio (solo l'account personale viene rimosso).
+- Un utente autenticato può richiedere l'eliminazione del proprio profilo dalla sezione "Profilo"; il sistema chiede una conferma esplicita prima di procedere.
+- Se l'utente conferma e l'operazione va a buon fine, il sistema rimuove account e dati personali e le credenziali non consentono più l'accesso.
+- Se l'utente appartiene a uno studio con fascicoli condivisi, l'eliminazione rimuove solo l'account personale: i fascicoli condivisi restano accessibili agli altri membri dello studio.
 
 ## Fuori scope
 

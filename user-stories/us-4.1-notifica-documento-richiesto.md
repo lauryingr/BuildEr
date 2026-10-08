@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (richiesta via form di 
 
 ## Criteri di accettazione
 
-- **Dato** una richiesta di inserimento inviata dall'utente, **quando** il documento richiesto viene aggiunto alla piattaforma, **allora** il sistema mostra all'utente un banner di notifica con il link al documento.
-- **Dato** una notifica ricevuta, **quando** l'utente la apre o la chiude, **allora** il sistema la segna come letta e non la ripropone.
-- **Dato** più notifiche non lette, **quando** l'utente accede alla piattaforma, **allora** il sistema le mostra in ordine cronologico.
+- Quando il documento richiesto da un utente tramite richiesta di inserimento viene aggiunto alla piattaforma, il sistema mostra all'utente un banner di notifica con il link al documento.
+- Quando l'utente apre o chiude una notifica, il sistema la segna come letta e non la ripropone.
+- Se ci sono più notifiche non lette, il sistema le mostra in ordine cronologico quando l'utente accede alla piattaforma.
 
 ## Fuori scope
 

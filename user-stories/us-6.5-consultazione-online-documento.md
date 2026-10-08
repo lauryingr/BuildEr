@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (data/versione e fonte 
 
 ## Criteri di accettazione
 
-- **Dato** la scheda di un documento, **quando** l'utente sceglie "Consulta", **allora** il sistema apre il PDF in un visualizzatore integrato.
-- **Dato** un PDF aperto nel visualizzatore, **quando** l'utente naviga il documento, **allora** il sistema consente scorrimento, zoom e passaggio tra le pagine.
-- **Dato** un PDF aperto nel visualizzatore, **quando** l'utente sceglie il download, **allora** il sistema scarica il file (vedi [US-6.4](us-6.4-download-pdf.md)).
+- Dalla scheda di un documento l'utente può scegliere "Consulta"; il sistema apre il PDF in un visualizzatore integrato.
+- Nel visualizzatore l'utente può scorrere il documento, usare lo zoom e passare da una pagina all'altra.
+- Dal visualizzatore l'utente può scegliere il download; il sistema scarica il file (vedi [US-6.4](us-6.4-download-pdf.md)).
 
 ## Fuori scope
 

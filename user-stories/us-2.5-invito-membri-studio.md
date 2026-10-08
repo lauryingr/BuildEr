@@ -12,11 +12,11 @@ Riferimento: [BuildEr.md](../BuildEr.md) — archetipo 4.2. Epic di riferimento:
 
 ## Criteri di accettazione
 
-- **Dato** un responsabile di studio, **quando** inserisce l'email di un collega e invia l'invito, **allora** il sistema invia l'invito e lo mostra come "in attesa".
-- **Dato** un invito ricevuto da un utente registrato, **quando** l'utente lo accetta, **allora** il sistema lo aggiunge all'elenco dei membri dello studio.
-- **Dato** un invito ricevuto da un utente non registrato, **quando** l'utente completa la registrazione, **allora** il sistema lo associa allo studio dopo l'accettazione.
-- **Dato** un invito in attesa, **quando** il responsabile lo annulla o l'invito scade, **allora** il sistema lo invalida e il link non è più utilizzabile.
-- **Dato** un'email già membro dello studio, **quando** il responsabile tenta di invitarla di nuovo, **allora** il sistema mostra un messaggio di errore.
+- Un responsabile di studio può inserire l'email di un collega e inviare l'invito; il sistema invia l'invito e lo mostra come "in attesa".
+- Quando un utente registrato accetta un invito ricevuto, il sistema lo aggiunge all'elenco dei membri dello studio.
+- Quando un utente non registrato completa la registrazione e accetta l'invito ricevuto, il sistema lo associa allo studio.
+- Se il responsabile annulla un invito in attesa o l'invito scade, il sistema lo invalida e il link non è più utilizzabile.
+- Se il responsabile tenta di invitare un'email già membro dello studio, il sistema mostra un messaggio di errore.
 
 ## Fuori scope
 

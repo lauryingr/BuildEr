@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3. Epic di riferimento: [
 
 ## Criteri di accettazione
 
-- **Dato** un utente autenticato, **quando** crea una cartella indicando un nome, **allora** il sistema crea la cartella, inizialmente privata.
-- **Dato** una cartella appena creata, **quando** l'utente la imposta come condivisibile e seleziona dei colleghi, **allora** il sistema la rende accessibile ai colleghi selezionati.
-- **Dato** la creazione di una cartella, **quando** il nome è vuoto o già usato da un'altra cartella dello stesso utente, **allora** il sistema mostra un messaggio di errore e non crea la cartella.
+- Un utente autenticato può creare una cartella indicando un nome; il sistema crea la cartella, inizialmente privata.
+- L'utente può impostare una cartella appena creata come condivisibile e selezionare dei colleghi; il sistema la rende accessibile ai colleghi selezionati.
+- Se il nome è vuoto o già usato da un'altra cartella dello stesso utente, il sistema mostra un messaggio di errore e non crea la cartella.
 
 ## Fuori scope
 

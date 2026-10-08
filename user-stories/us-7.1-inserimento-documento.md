@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 3 "Ruoli utente" (Admin: ge
 
 ## Criteri di accettazione
 
-- **Dato** un Admin autenticato, **quando** compila il modulo di inserimento (file PDF, comune, tipologia, data/versione, fonte con link) e conferma, **allora** il sistema salva il documento e lo rende disponibile agli utenti.
-- **Dato** un modulo con campi obbligatori mancanti o file non PDF, **quando** l'Admin tenta il salvataggio, **allora** il sistema mostra un messaggio di errore e non salva.
-- **Dato** un documento già presente con stessa tipologia, comune e versione, **quando** l'Admin tenta di inserirlo di nuovo, **allora** il sistema segnala il possibile duplicato.
-- **Dato** un documento appena pubblicato, **quando** viene salvato, **allora** il sistema genera le notifiche previste agli utenti interessati (vedi Epic 4).
+- Un Admin autenticato può compilare il modulo di inserimento (file PDF, comune, tipologia, data/versione, fonte con link) e confermare; il sistema salva il documento e lo rende disponibile agli utenti.
+- Se mancano campi obbligatori o il file non è un PDF, il sistema mostra un messaggio di errore e non salva.
+- Se esiste già un documento con stessa tipologia, comune e versione, il sistema segnala il possibile duplicato.
+- Quando un documento viene pubblicato, il sistema genera le notifiche previste agli utenti interessati (vedi Epic 4).
 
 ## Fuori scope
 

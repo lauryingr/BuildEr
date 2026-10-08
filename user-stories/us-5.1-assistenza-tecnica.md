@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md). Epic di riferimento: [epic-5-assistenz
 
 ## Criteri di accettazione
 
-- **Dato** un utente autenticato, **quando** compila il modulo di assistenza con oggetto e descrizione del problema, **allora** il sistema invia la richiesta e mostra una conferma di ricezione.
-- **Dato** un modulo con campi obbligatori mancanti, **quando** l'utente tenta l'invio, **allora** il sistema evidenzia i campi mancanti e non invia la richiesta.
-- **Dato** una richiesta inviata, **quando** viene ricevuta, **allora** il sistema la rende consultabile all'Admin.
+- Un utente autenticato può compilare il modulo di assistenza con oggetto e descrizione del problema; il sistema invia la richiesta e mostra una conferma di ricezione.
+- Se mancano campi obbligatori, il sistema evidenzia i campi mancanti e non invia la richiesta.
+- Quando la richiesta viene ricevuta, il sistema la rende consultabile all'Admin.
 
 ## Fuori scope
 

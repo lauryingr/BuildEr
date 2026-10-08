@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (data/versione e fonte 
 
 ## Criteri di accettazione
 
-- **Dato** un documento, **quando** viene visualizzato, **allora** il sistema mostra la fonte di provenienza (es. sito istituzionale del comune, BUR regionale, normativa nazionale).
-- **Dato** l'indicazione della fonte, **quando** l'utente la seleziona, **allora** il sistema apre il link alla pagina originale in una nuova scheda.
-- **Dato** un link alla fonte non più raggiungibile, **quando** l'utente lo seleziona, **allora** il sistema segnala che la fonte non è raggiungibile mantenendo l'indicazione testuale.
+- Il sistema mostra la fonte di provenienza di ogni documento (es. sito istituzionale del comune, BUR regionale, normativa nazionale).
+- Quando l'utente seleziona l'indicazione della fonte, il sistema apre il link alla pagina originale in una nuova scheda.
+- Se il link alla fonte non è più raggiungibile, il sistema segnala che la fonte non è raggiungibile mantenendo l'indicazione testuale.
 
 ## Fuori scope
 

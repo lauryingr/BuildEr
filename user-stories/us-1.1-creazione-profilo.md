@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" (crea
 
 ## Criteri di accettazione
 
-- **Dato** un visitatore non registrato, **quando** compila il form di registrazione con i dati richiesti (es. nome, cognome, email, password, ruolo/professione), **allora** il sistema crea il profilo utente.
-- **Dato** un profilo appena creato, **quando** la registrazione va a buon fine, **allora** il sistema mostra la conferma e l'utente può effettuare il login.
-- **Dato** una registrazione in corso, **quando** l'email inserita è già associata a un altro profilo, **allora** il sistema mostra un messaggio di errore chiaro e non crea un duplicato.
-- **Dato** un nuovo profilo, **quando** viene creato, **allora** gli viene assegnato di default il ruolo "User" (Admin assegnato solo manualmente/internamente).
+- Un utente non registrato può compilare il form di registrazione inserendo i dati richiesti (nome, cognome, email, password, ruolo/professione); il sistema crea il profilo utente.
+- Se la registrazione va a buon fine, il sistema mostra un messaggio di conferma e l'utente può effettuare il login.
+- Se l'email inserita è già associata a un altro profilo, il sistema mostra un messaggio di errore chiaro e non crea un duplicato.
+- Il sistema assegna di default al nuovo profilo il ruolo "User"; il ruolo "Admin" viene assegnato solo manualmente/internamente.
 
 ## Fuori scope
 

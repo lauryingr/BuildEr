@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" e arc
 
 ## Criteri di accettazione
 
-- **Dato** un utente autenticato, **quando** crea una nuova cartella personale, **allora** può assegnarle un nome a scelta.
-- **Dato** una cartella creata, **quando** si consulta un documento, **allora** è possibile aggiungerlo a una o più cartelle personalizzate.
-- **Dato** una cartella con documenti, **quando** vi si accede, **allora** il sistema mostra l'elenco dei documenti contenuti, con relativa data/versione di aggiornamento.
-- **Dato** più cartelle create, **quando** si accede all'area personale, **allora** le cartelle risultano elencate e navigabili.
+- Un utente autenticato può creare una nuova cartella personale assegnandole un nome a scelta.
+- Mentre consulta un documento, l'utente può aggiungerlo a una o più cartelle personalizzate.
+- Quando l'utente accede a una cartella, il sistema mostra l'elenco dei documenti contenuti, con relativa data/versione di aggiornamento.
+- Nell'area personale il sistema elenca tutte le cartelle create e le rende navigabili.
 
 ## Fuori scope
 

@@ -12,11 +12,11 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (banner di notifica). E
 
 ## Criteri di accettazione
 
-- **Dato** un utente autenticato, **quando** accede al centro notifiche, **allora** il sistema mostra l'elenco cronologico delle notifiche, dalla più recente.
-- **Dato** una notifica in elenco, **quando** viene visualizzata, **allora** il sistema mostra tipo (richiesto, preferito, provincia), comune, documento e data.
-- **Dato** una notifica in elenco, **quando** l'utente la seleziona, **allora** il sistema apre il documento collegato.
-- **Dato** l'elenco delle notifiche, **quando** l'utente filtra per tipo o per stato, **allora** il sistema mostra solo le notifiche corrispondenti.
-- **Dato** una notifica, **quando** l'utente la elimina dallo storico, **allora** il sistema la rimuove solo dal suo elenco.
+- Un utente autenticato può accedere al centro notifiche, dove il sistema mostra l'elenco cronologico delle notifiche, dalla più recente.
+- Per ogni notifica il sistema mostra tipo (richiesto, preferito, provincia), comune, documento e data.
+- Quando l'utente seleziona una notifica, il sistema apre il documento collegato.
+- L'utente può filtrare le notifiche per tipo o per stato; il sistema mostra solo quelle corrispondenti.
+- L'utente può eliminare una notifica dallo storico; il sistema la rimuove solo dal suo elenco.
 
 ## Fuori scope
 

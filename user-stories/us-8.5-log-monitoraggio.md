@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.1 (aggiornamento tramite 
 
 ## Criteri di accettazione
 
-- **Dato** lo storico dei controlli, **quando** l'Admin lo consulta, **allora** il sistema mostra per ogni controllo fonte, data/ora, esito (nessuna modifica, aggiornamento rilevato, errore).
-- **Dato** lo storico, **quando** l'Admin lo filtra per esito, comune o periodo, **allora** il sistema mostra solo le voci corrispondenti.
-- **Dato** una fonte con errori ripetuti, **quando** l'elenco viene visualizzato, **allora** il sistema la evidenzia come problematica.
+- Quando l'Admin consulta lo storico dei controlli, il sistema mostra per ogni controllo fonte, data/ora, esito (nessuna modifica, aggiornamento rilevato, errore).
+- L'Admin può filtrare lo storico per esito, comune o periodo; il sistema mostra solo le voci corrispondenti.
+- Se una fonte ha errori ripetuti, il sistema la evidenzia come problematica nell'elenco.
 
 ## Fuori scope
 

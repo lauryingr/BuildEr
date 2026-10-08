@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (data/versione e fonte 
 
 ## Criteri di accettazione
 
-- **Dato** un documento disponibile, **quando** l'utente ne richiede il download, **allora** il sistema scarica il file PDF.
-- **Dato** un file scaricato, **quando** viene salvato, **allora** il nome del file riporta comune, tipologia e data/versione.
-- **Dato** un documento scaricato, **quando** viene aperto, **allora** il contenuto è identico a quello pubblicato dalla fonte.
-- **Dato** un errore durante il download, **quando** si verifica, **allora** il sistema mostra un messaggio chiaro e consente di riprovare.
+- Un utente può richiedere il download di un documento disponibile; il sistema scarica il file PDF.
+- Il nome del file scaricato riporta comune, tipologia e data/versione.
+- Il contenuto del documento scaricato è identico a quello pubblicato dalla fonte.
+- Se si verifica un errore durante il download, il sistema mostra un messaggio chiaro e consente di riprovare.
 
 ## Fuori scope
 

@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.1 (aggiornamento tramite 
 
 ## Criteri di accettazione
 
-- **Dato** una fonte configurata, **quando** l'Admin avvia il controllo manuale, **allora** il sistema esegue subito il controllo e ne mostra l'esito.
-- **Dato** un controllo manuale in corso sulla stessa fonte, **quando** l'Admin tenta di avviarne un altro, **allora** il sistema lo impedisce.
-- **Dato** un controllo manuale concluso, **quando** viene registrato, **allora** il sistema lo riporta nello storico (vedi [US-8.5](us-8.5-log-monitoraggio.md)).
+- L'Admin può avviare il controllo manuale di una fonte configurata; il sistema esegue subito il controllo e ne mostra l'esito.
+- Se è già in corso un controllo manuale sulla stessa fonte, il sistema impedisce di avviarne un altro.
+- Quando un controllo manuale si conclude, il sistema lo riporta nello storico (vedi [US-8.5](us-8.5-log-monitoraggio.md)).
 
 ## Fuori scope
 

@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 3 "Ruoli utente" (Admin: ge
 
 ## Criteri di accettazione
 
-- **Dato** gli utenti registrati, **quando** l'Admin accede alla sezione dedicata, **allora** il sistema mostra l'elenco con nome, email, professione, ruolo e data di registrazione.
-- **Dato** un utente, **quando** l'Admin lo cerca per nome o email, **allora** il sistema mostra i risultati corrispondenti.
-- **Dato** un utente, **quando** l'Admin ne modifica il ruolo (User/Admin), **allora** il sistema aggiorna i permessi dell'utente.
-- **Dato** un utente, **quando** l'Admin lo sospende, **allora** il sistema gli impedisce l'accesso mantenendone i dati.
+- Nella sezione dedicata l'Admin vede l'elenco degli utenti registrati con nome, email, professione, ruolo e data di registrazione.
+- L'Admin può cercare un utente per nome o email; il sistema mostra i risultati corrispondenti.
+- L'Admin può modificare il ruolo di un utente (User/Admin); il sistema aggiorna i permessi dell'utente.
+- L'Admin può sospendere un utente; il sistema gli impedisce l'accesso mantenendone i dati.
 
 ## Fuori scope
 

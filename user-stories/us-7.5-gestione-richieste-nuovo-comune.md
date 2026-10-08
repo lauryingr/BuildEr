@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 3 "Ruoli utente" (Admin: ge
 
 ## Criteri di accettazione
 
-- **Dato** le richieste ricevute, **quando** l'Admin accede alla sezione dedicata, **allora** il sistema le mostra con comune, utente richiedente, data e stato (aperta, in lavorazione, evasa, rifiutata).
-- **Dato** più richieste per lo stesso comune, **quando** l'elenco viene visualizzato, **allora** il sistema le raggruppa indicando il numero di richiedenti.
-- **Dato** una richiesta, **quando** l'Admin ne cambia lo stato, **allora** il sistema salva il nuovo stato.
-- **Dato** una richiesta evasa (documenti inseriti), **quando** l'Admin la chiude, **allora** il sistema notifica gli utenti richiedenti.
+- Nella sezione dedicata l'Admin vede le richieste ricevute con comune, utente richiedente, data e stato (aperta, in lavorazione, evasa, rifiutata).
+- Se ci sono più richieste per lo stesso comune, il sistema le raggruppa indicando il numero di richiedenti.
+- L'Admin può cambiare lo stato di una richiesta; il sistema salva il nuovo stato.
+- Quando l'Admin chiude una richiesta evasa (documenti inseriti), il sistema notifica gli utenti richiedenti.
 
 ## Fuori scope
 

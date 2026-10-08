@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3. Epic di riferimento: [
 
 ## Criteri di accettazione
 
-- **Dato** una cartella esistente, **quando** l'utente ne modifica il nome e salva, **allora** il sistema aggiorna il nome.
-- **Dato** una cartella esistente, **quando** l'utente aggiunge o rimuove un documento, **allora** il sistema aggiorna il contenuto senza cancellare il documento dalla piattaforma.
-- **Dato** una cartella condivisa, **quando** il proprietario aggiunge o rimuove un collega, **allora** il sistema aggiorna gli accessi di conseguenza.
-- **Dato** una cartella condivisa, **quando** un utente che non ne è proprietario tenta di modificarla, **allora** il sistema nega l'operazione.
+- L'utente può modificare il nome di una cartella esistente; quando salva, il sistema aggiorna il nome.
+- L'utente può aggiungere o rimuovere un documento da una cartella; il sistema aggiorna il contenuto senza cancellare il documento dalla piattaforma.
+- Il proprietario di una cartella condivisa può aggiungere o rimuovere un collega; il sistema aggiorna gli accessi di conseguenza.
+- Se un utente che non è proprietario di una cartella condivisa tenta di modificarla, il sistema nega l'operazione.
 
 ## Fuori scope
 

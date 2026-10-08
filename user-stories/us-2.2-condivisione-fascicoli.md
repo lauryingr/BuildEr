@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" (gest
 
 ## Criteri di accettazione
 
-- **Dato** una cartella personale con almeno un documento, **quando** l'utente sceglie di condividerla con uno o più colleghi dello studio, **allora** il sistema rende la cartella visibile ai colleghi selezionati.
-- **Dato** una cartella condivisa, **quando** un collega vi accede, **allora** il sistema mostra l'elenco dei documenti contenuti, con data/versione di aggiornamento.
-- **Dato** una cartella condivisa, **quando** il proprietario revoca la condivisione a un collega, **allora** il collega non ha più accesso alla cartella.
-- **Dato** un documento nella cartella condivisa che viene aggiornato, **quando** un collega lo consulta, **allora** il sistema mostra la versione più recente a tutti i membri con accesso.
+- Un utente può condividere una cartella personale con almeno un documento con uno o più colleghi dello studio; il sistema rende la cartella visibile ai colleghi selezionati.
+- Quando un collega accede a una cartella condivisa, il sistema mostra l'elenco dei documenti contenuti, con data/versione di aggiornamento.
+- Il proprietario può revocare la condivisione a un collega; da quel momento il collega non ha più accesso alla cartella.
+- Se un documento nella cartella condivisa viene aggiornato, il sistema mostra la versione più recente a tutti i membri con accesso.
 
 ## Fuori scope
 

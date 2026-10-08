@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (banner di notifica). E
 
 ## Criteri di accettazione
 
-- **Dato** una nuova notifica, **quando** viene generata, **allora** il sistema la segna come non letta e mostra un indicatore con il numero di notifiche non lette.
-- **Dato** una notifica non letta, **quando** l'utente la apre, **allora** il sistema la segna come letta e aggiorna il contatore.
-- **Dato** più notifiche non lette, **quando** l'utente sceglie "segna tutte come lette", **allora** il sistema le segna tutte come lette.
-- **Dato** una notifica letta, **quando** l'utente la segna come non letta, **allora** il sistema ripristina lo stato "non letta".
+- Quando viene generata una nuova notifica, il sistema la segna come non letta e mostra un indicatore con il numero di notifiche non lette.
+- Quando l'utente apre una notifica non letta, il sistema la segna come letta e aggiorna il contatore.
+- L'utente può scegliere "segna tutte come lette"; il sistema segna tutte le notifiche non lette come lette.
+- L'utente può segnare una notifica letta come non letta; il sistema ripristina lo stato "non letta".
 
 ## Fuori scope
 

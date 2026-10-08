@@ -12,11 +12,11 @@ Riferimento: [BuildEr.md](../BuildEr.md) — archetipo 4.2. Epic di riferimento:
 
 ## Criteri di accettazione
 
-- **Dato** un membro dello studio, **quando** il responsabile ne richiede la rimozione, **allora** il sistema chiede una conferma esplicita.
-- **Dato** una conferma di rimozione, **quando** l'operazione va a buon fine, **allora** il membro perde l'accesso a tutte le cartelle condivise dello studio.
-- **Dato** un membro rimosso, **quando** viene rimosso, **allora** il sistema mantiene il suo account personale e le sue cartelle private.
-- **Dato** un membro che vuole lasciare lo studio, **quando** ne fa richiesta, **allora** il sistema lo rimuove dall'elenco dei membri.
-- **Dato** il responsabile dello studio, **quando** tenta di rimuovere se stesso senza aver designato un altro responsabile, **allora** il sistema blocca l'operazione.
+- Il responsabile può richiedere la rimozione di un membro dello studio; il sistema chiede una conferma esplicita.
+- Se il responsabile conferma e l'operazione va a buon fine, il membro perde l'accesso a tutte le cartelle condivise dello studio.
+- Quando un membro viene rimosso, il sistema mantiene il suo account personale e le sue cartelle private.
+- Un membro può richiedere di lasciare lo studio; il sistema lo rimuove dall'elenco dei membri.
+- Se il responsabile tenta di rimuovere se stesso senza aver designato un altro responsabile, il sistema blocca l'operazione.
 
 ## Fuori scope
 

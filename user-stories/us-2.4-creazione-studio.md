@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (gestione multi-utente/
 
 ## Criteri di accettazione
 
-- **Dato** un utente autenticato non ancora associato a uno studio, **quando** crea uno studio indicando il nome, **allora** il sistema crea lo studio e assegna all'utente il ruolo di responsabile dello studio.
-- **Dato** la creazione di uno studio, **quando** il nome è vuoto, **allora** il sistema mostra un messaggio di errore e non crea lo studio.
-- **Dato** uno studio appena creato, **quando** viene visualizzato, **allora** il sistema mostra l'elenco dei membri, inizialmente composto solo dal creatore.
+- Un utente autenticato non ancora associato a uno studio può crearne uno indicando il nome; il sistema crea lo studio e assegna all'utente il ruolo di responsabile dello studio.
+- Se il nome dello studio è vuoto, il sistema mostra un messaggio di errore e non crea lo studio.
+- Quando viene visualizzato uno studio appena creato, il sistema mostra l'elenco dei membri, inizialmente composto solo dal creatore.
 
 ## Fuori scope
 

@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.1 (aggiornamento tramite 
 
 ## Criteri di accettazione
 
-- **Dato** un aggiornamento proposto, **quando** l'Admin lo apre, **allora** il sistema mostra fonte, data rilevamento, nuovo file e documento attualmente pubblicato.
-- **Dato** un aggiornamento proposto, **quando** l'Admin lo approva, **allora** il sistema pubblica la nuova versione, aggiorna data/versione e genera le notifiche agli utenti interessati.
-- **Dato** un aggiornamento proposto, **quando** l'Admin lo rifiuta, **allora** il sistema lo scarta senza modificare il documento pubblicato.
-- **Dato** un elenco di aggiornamenti in attesa, **quando** l'Admin accede alla pagina, **allora** il sistema li mostra ordinati per data di rilevamento.
+- Quando l'Admin apre un aggiornamento proposto, il sistema mostra fonte, data rilevamento, nuovo file e documento attualmente pubblicato.
+- Se l'Admin approva l'aggiornamento, il sistema pubblica la nuova versione, aggiorna data/versione e genera le notifiche agli utenti interessati.
+- Se l'Admin rifiuta l'aggiornamento, il sistema lo scarta senza modificare il documento pubblicato.
+- Nella pagina degli aggiornamenti in attesa, il sistema li mostra ordinati per data di rilevamento.
 
 ## Fuori scope
 

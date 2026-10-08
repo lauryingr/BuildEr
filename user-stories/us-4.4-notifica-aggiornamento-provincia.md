@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3. Epic di riferimento: [
 
 ## Criteri di accettazione
 
-- **Dato** una provincia di interesse impostata, **quando** un documento di un comune della provincia viene aggiornato, **allora** il sistema mostra un banner di notifica con comune, documento e data di aggiornamento.
-- **Dato** una notifica ricevuta, **quando** l'utente la apre, **allora** il sistema mostra il documento nella versione aggiornata.
-- **Dato** un documento già notificato tramite i preferiti (US-4.2), **quando** viene aggiornato, **allora** il sistema mostra una sola notifica, senza duplicati.
+- Quando un documento di un comune di una provincia di interesse viene aggiornato, il sistema mostra un banner di notifica con comune, documento e data di aggiornamento.
+- Quando l'utente apre la notifica, il sistema mostra il documento nella versione aggiornata.
+- Se il documento è già stato notificato tramite i preferiti (US-4.2), il sistema mostra una sola notifica, senza duplicati.
 
 ## Fuori scope
 

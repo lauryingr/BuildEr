@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.1 (aggiornamento tramite 
 
 ## Criteri di accettazione
 
-- **Dato** un utente con ruolo Admin, **quando** accede alla pagina di monitoraggio, **allora** il sistema mostra il riepilogo: numero di fonti monitorate, ultimo controllo, aggiornamenti da revisionare, errori recenti.
-- **Dato** un utente con ruolo User, **quando** tenta di accedere alla pagina di monitoraggio, **allora** il sistema nega l'accesso.
-- **Dato** un utente non autenticato, **quando** tenta di accedere alla pagina di monitoraggio, **allora** il sistema reindirizza al login.
-- **Dato** la pagina di monitoraggio, **quando** viene visualizzata, **allora** il sistema consente di filtrare per regione, provincia, comune e stato.
+- Quando un Admin accede alla pagina di monitoraggio, il sistema mostra il riepilogo: numero di fonti monitorate, ultimo controllo, aggiornamenti da revisionare, errori recenti.
+- Se un utente con ruolo User tenta di accedere alla pagina di monitoraggio, il sistema nega l'accesso.
+- Se un utente non autenticato tenta di accedere alla pagina di monitoraggio, il sistema reindirizza al login.
+- Nella pagina di monitoraggio l'Admin può filtrare per regione, provincia, comune e stato.
 
 ## Fuori scope
 

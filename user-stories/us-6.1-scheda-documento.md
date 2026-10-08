@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (data/versione e fonte 
 
 ## Criteri di accettazione
 
-- **Dato** un documento in elenco (ricerca, preferiti, cartella, notifica), **quando** l'utente lo seleziona, **allora** il sistema apre la scheda di dettaglio.
-- **Dato** la scheda di dettaglio, **quando** viene visualizzata, **allora** il sistema mostra titolo, tipologia, comune, provincia, regione, data/versione e fonte.
-- **Dato** la scheda di dettaglio, **quando** viene visualizzata, **allora** il sistema offre le azioni di download, aggiunta ai preferiti e aggiunta a cartella.
-- **Dato** un documento non più disponibile, **quando** l'utente tenta di aprirlo, **allora** il sistema mostra un messaggio chiaro.
+- Quando l'utente seleziona un documento in elenco (ricerca, preferiti, cartella, notifica), il sistema apre la scheda di dettaglio.
+- La scheda di dettaglio mostra titolo, tipologia, comune, provincia, regione, data/versione e fonte.
+- La scheda di dettaglio offre le azioni di download, aggiunta ai preferiti e aggiunta a cartella.
+- Se il documento non è più disponibile, il sistema mostra un messaggio chiaro quando l'utente tenta di aprirlo.
 
 ## Fuori scope
 

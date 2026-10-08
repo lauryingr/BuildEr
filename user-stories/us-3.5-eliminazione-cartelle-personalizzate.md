@@ -12,10 +12,10 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3. Epic di riferimento: [
 
 ## Criteri di accettazione
 
-- **Dato** una cartella esistente, **quando** l'utente ne richiede l'eliminazione, **allora** il sistema chiede una conferma esplicita.
-- **Dato** una conferma di eliminazione, **quando** l'operazione va a buon fine, **allora** la cartella scompare dall'elenco e i documenti in essa contenuti restano disponibili nella piattaforma.
-- **Dato** una cartella condivisa, **quando** il proprietario la elimina, **allora** la cartella non è più accessibile ai colleghi con cui era condivisa.
-- **Dato** una cartella condivisa, **quando** un utente che non ne è proprietario tenta di eliminarla, **allora** il sistema nega l'operazione.
+- L'utente può richiedere l'eliminazione di una cartella esistente; il sistema chiede una conferma esplicita.
+- Se l'utente conferma e l'operazione va a buon fine, la cartella scompare dall'elenco e i documenti in essa contenuti restano disponibili nella piattaforma.
+- Quando il proprietario elimina una cartella condivisa, la cartella non è più accessibile ai colleghi con cui era condivisa.
+- Se un utente che non è proprietario di una cartella condivisa tenta di eliminarla, il sistema nega l'operazione.
 
 ## Fuori scope
 

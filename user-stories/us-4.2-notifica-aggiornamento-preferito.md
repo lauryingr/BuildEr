@@ -12,9 +12,9 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (banner di notifica sui
 
 ## Criteri di accettazione
 
-- **Dato** un documento tra i preferiti, **quando** viene pubblicata una nuova versione, **allora** il sistema mostra un banner di notifica indicando documento, comune e data di aggiornamento.
-- **Dato** una notifica di aggiornamento, **quando** l'utente la apre, **allora** il sistema mostra il documento nella versione aggiornata con data/versione e fonte.
-- **Dato** un documento rimosso dai preferiti, **quando** viene aggiornato, **allora** il sistema non invia alcuna notifica.
+- Quando viene pubblicata una nuova versione di un documento tra i preferiti, il sistema mostra un banner di notifica indicando documento, comune e data di aggiornamento.
+- Quando l'utente apre la notifica, il sistema mostra il documento nella versione aggiornata con data/versione e fonte.
+- Se un documento è stato rimosso dai preferiti, il sistema non invia alcuna notifica al suo aggiornamento.
 
 ## Fuori scope
 
