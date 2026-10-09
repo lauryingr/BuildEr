@@ -21,7 +21,7 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 (salvataggio dei comuni
 ## Fuori scope
 
 - Aggiunta e rimozione dei preferiti (vedi US-3.2).
-- Preferiti condivisi con lo studio.
+- Preferiti condivisi con altri utenti.
 
 ## Note
 

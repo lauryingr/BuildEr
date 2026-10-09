@@ -12,3 +12,4 @@ Ricerca, gestione dei preferiti e organizzazione dei documenti in cartelle perso
 | US-3.4 | Modifica di cartelle personalizzate e condivisibili  | [us-3.4-modifica-cartelle-personalizzate.md](../user-stories/us-3.4-modifica-cartelle-personalizzate.md)   |
 | US-3.5 | Eliminazione di cartelle personalizzate e condivisibili | [us-3.5-eliminazione-cartelle-personalizzate.md](../user-stories/us-3.5-eliminazione-cartelle-personalizzate.md) |
 | US-3.6 | Elenco e visualizzazione dei preferiti | [us-3.6-elenco-preferiti.md](../user-stories/us-3.6-elenco-preferiti.md) |
+| US-3.7 | Dashboard di copertura territoriale nella home | [us-3.7-dashboard-copertura-territoriale.md](../user-stories/us-3.7-dashboard-copertura-territoriale.md) |

@@ -14,7 +14,7 @@ Riferimento: [BuildEr.md](../BuildEr.md) — archetipo 4.1 (Elia). Epic di rifer
 
 - Un utente autenticato può richiedere l'eliminazione del proprio profilo dalla sezione "Profilo"; il sistema chiede una conferma esplicita prima di procedere.
 - Se l'utente conferma e l'operazione va a buon fine, il sistema rimuove account e dati personali e le credenziali non consentono più l'accesso.
-- Se l'utente appartiene a uno studio con fascicoli condivisi, l'eliminazione rimuove solo l'account personale: i fascicoli condivisi restano accessibili agli altri membri dello studio.
+- Se l'utente è membro di cartelle condivise, l'eliminazione equivale all'uscita da ciascuna: le cartelle restano accessibili agli altri membri. Le cartelle di cui era l'unico membro vengono eliminate.
 
 ## Fuori scope
 

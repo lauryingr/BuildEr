@@ -20,7 +20,7 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" (crea
 ## Fuori scope
 
 - Login/registrazione tramite provider esterni (Google, LinkedIn, ecc.), salvo diversa decisione futura.
-- Gestione degli inviti multi-utente/studio (vedi Epic 2).
+- Gestione degli inviti alle cartelle condivise (vedi US-2.2); un invitato non registrato completa la registrazione e poi accetta l'invito.
 
 ## Note
 

@@ -20,7 +20,7 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" (salv
 ## Fuori scope
 
 - Gestione delle notifiche stesse (vedi Epic 4).
-- Preferiti condivisi tra colleghi.
+- Preferiti condivisi con altri utenti.
 
 ## Note
 

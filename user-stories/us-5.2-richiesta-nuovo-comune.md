@@ -12,8 +12,8 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" (rich
 
 ## Criteri di accettazione
 
-- Se un comune non è presente nell'archivio, l'utente può compilare il modulo indicando regione, provincia e comune; il sistema invia la richiesta e mostra una conferma di ricezione.
-- Se il comune è già presente, il sistema segnala che i documenti sono già disponibili e propone il link.
+- Se per un comune non ci sono documenti disponibili (comune "rosso" nella dashboard, vedi [US-3.7](us-3.7-dashboard-copertura-territoriale.md), o esito vuoto di una ricerca), l'utente può compilare il modulo, con regione, provincia e comune già precompilati, il sistema invia la richiesta e mostra una conferma di ricezione.
+- Se per il comune ci sono già documenti disponibili (comune "verde"), il sistema segnala che sono già disponibili e propone il link.
 - Quando la richiesta viene ricevuta, il sistema la rende consultabile all'Admin.
 - Quando la richiesta viene evasa e i documenti vengono inseriti, il sistema notifica l'utente richiedente (vedi US-4.1).
 

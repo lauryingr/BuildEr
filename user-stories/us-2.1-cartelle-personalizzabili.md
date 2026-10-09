@@ -19,7 +19,7 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 2.3 "Cosa è incluso" e arc
 
 ## Fuori scope
 
-- Condivisione delle cartelle con altri colleghi (vedi US-2.2).
+- Condivisione delle cartelle con altri utenti (vedi US-2.2).
 - Modifica/eliminazione delle cartelle (vedi US-3.4 e US-3.5).
 
 ## Note

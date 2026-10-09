@@ -14,13 +14,13 @@ Riferimento: [BuildEr.md](../BuildEr.md) — sezione 3 "Ruoli utente" (Admin: ge
 
 - L'Admin può consultare l'anagrafica territoriale; il sistema mostra regioni, province e comuni con il numero di documenti per comune.
 - L'Admin può aggiungere un comune non ancora presente indicando provincia e regione; il sistema lo rende selezionabile nei filtri e nell'inserimento documenti.
-- L'Admin può contrassegnare un comune senza documenti come "non ancora coperto"; il sistema lo mostra come tale agli utenti.
+- Un comune senza documenti risulta "non ancora coperto" e viene mostrato in rosso agli utenti nella dashboard ([US-3.7](us-3.7-dashboard-copertura-territoriale.md)); diventa verde quando viene inserito il primo documento. Lo stato è calcolato dal sistema, non impostato a mano.
 - Se l'Admin tenta di eliminare un comune con documenti, il sistema lo impedisce.
 
 ## Fuori scope
 
-- Import automatico dell'elenco completo dei comuni italiani (da valutare).
 
 ## Note
 
-- Il PRD esclude la copertura dei 7900 comuni al lancio: l'anagrafica deve poter crescere gradualmente.
+- Il PRD esclude la copertura dei 7900 comuni al lancio: i documenti crescono gradualmente, ma l'anagrafica di 20 regioni, province e comuni deve essere precaricata per intero fin dal lancio, perché la dashboard della home mostra anche i comuni senza documenti. L'import iniziale dell'elenco è quindi prerequisito.
+- Aggiungere un comune serve solo per variazioni successive (es. nuovi comuni da fusione).
