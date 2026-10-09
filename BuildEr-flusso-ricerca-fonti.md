@@ -29,7 +29,6 @@ Legenda flag: 🟡 **DA VALIDARE** (Elia) · link e accessibilità ancora da ver
 
 | Documento | Flag |
 | --------- | ---- |
-
 | DPR 380/2001 – Testo Unico Edilizia | 🟡 |
 | DL 69/2024 e L. 105/2024 – Salva Casa | 🟡 |
 | D.Lgs. 42/2004 – Codice Beni Culturali e Paesaggio | 🟡 |
@@ -43,7 +42,6 @@ Legenda flag: 🟡 **DA VALIDARE** (Elia) · link e accessibilità ancora da ver
 | NTC 2018 – Norme Tecniche per le Costruzioni | 🟡 |
 | L. 13/1989 – Superamento barriere architettoniche negli edifici privati | 🟡 |
 | L. 164/2014 (11 novembre 2014) – Conversione DL 133/2014 "Sblocca Italia" | 🟡 |
-| Art. 135-bis DPR 380/2001 – Norme per l'infrastrutturazione digitale degli edifici | 🟡 |
 | D.Lgs. 207/2021 – Codice europeo delle comunicazioni elettroniche | 🟡 |
 | Decreto ministeriale 130/2025 – aggiornamenti infrastrutturazione digitale (estremi da verificare) | 🟡 |
 
@@ -84,10 +82,9 @@ Legenda flag: 🟡 **DA VALIDARE** (Elia) · link e accessibilità ancora da ver
 | Regolamento del verde                                     | 🟡   |
 | Regolamento di accesso documentale                        | 🟡   |
 | Tariffe: diritti di segreteria e oneri istruttori         | 🟡   |
-
-|Regolamento Edilizio Comunale
-|Regolamento di Polizia Urbana
-| Regolamento di Igiene
+| Regolamento Edilizio Comunale                             | 🟡   |
+| Regolamento di Polizia Urbana                             | 🟡   |
+| Regolamento di Igiene                                     | 🟡   |
 
 ### Enti terzi
 
@@ -95,7 +92,6 @@ Legenda flag: 🟡 **DA VALIDARE** (Elia) · link e accessibilità ancora da ver
 | ----------------------------------------------------------------------------------- | ---- |
 | Regolamenti e fasce di rispetto del Consorzio di Bonifica Piave                     | 🟡   |
 | ATS (Alto Trevigiano Servizi) – Regolamento e modulo (es. allacciamenti / scarichi) | 🟡   |
-| Moduli vuoti (CILA, SCIA, scarico acque, VIncA)                                     | 🟡   |
 
 ### Metadati normativi da conservare (non sono pratiche)
 
